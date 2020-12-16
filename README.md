@@ -23,6 +23,7 @@
 * If "9.bad file descripter" ERROR occurs,
 it means you did not activated rpi's bluetooth functions. 
 you can activate bluetooth function by conducting following commands.
+
 **![](https://lh4.googleusercontent.com/dwDBWjsVjN3vFrxu0RXdwHxNu9dgJk_lJOkZuRqfk8EmlzdXwi_87-LdB5CZ85_QYB-FAXJ9XzFZe88mVv-CWkUmrQxLHdjwDiK8-3gYbd272Qw0mTSkvwFYzi1vFNTvUj9TUtGZ)**
 
 ```
