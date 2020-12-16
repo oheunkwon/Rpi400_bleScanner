@@ -1,22 +1,23 @@
 # Rpi 400 Blescanner  
-### 라즈베리 파이를 이용한 (Rpi 400) Ble scanner 구현.  
+### Ble scanner (Bluetooth device scanner) using Raspberry pi 400.  
 ***  
-### **디렉토리(라즈베리파이 내부)** 
+### **Directory** 
 /home/pi/projects/blescanner/
-### 사용법(실행)     
- 1. sudo python3 blescanner.py
+### Run command     
+ 1. sudo python3 /home/pi/projects/blescanner/blescanner.py
+ (It needs "sudo" because of the bluetooth activation thing..)
   
-### 코드 별 구현 기능  
-* **log.py** : 로그 포맷 지정 파일  
-* **scanner.py** : 주변에서 쏘는 비콘 신호로 비콘 스캔 (main)  
-* **scan_func.py** : 비콘 스캔 함수
+### source code explanation
+* **log.py** : log formatting source code  
+* **scanner.py** : scanning bluetooth devices around rpi 400 (main)  
+* **scan_func.py** : scan function source code
 ***
-### 실행 화면
+### Run project
 
-
-* 9.bad file descripter 에러 발생시
-다음 명령어 순차적으로 실행하여 블루투스 활성화 후 프로그램 재 시작.
-
+#### ERROR
+* If "9.bad file descripter" ERROR occurs,
+it means you did not activated rpi's bluetooth functions. 
+you can activate bluetooth function by conducting following commands.
 **![](https://lh4.googleusercontent.com/dwDBWjsVjN3vFrxu0RXdwHxNu9dgJk_lJOkZuRqfk8EmlzdXwi_87-LdB5CZ85_QYB-FAXJ9XzFZe88mVv-CWkUmrQxLHdjwDiK8-3gYbd272Qw0mTSkvwFYzi1vFNTvUj9TUtGZ)**
 
 ```
