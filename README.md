@@ -10,7 +10,12 @@
 ### source code explanation
 * **log.py** : log formatting source code  
 * **scanner.py** : scanning bluetooth devices around rpi 400 (main)  
+* **activateble.py** : make raspberry pi into a beacon.
 * **scan_func.py** : scan function source code
+* **del_log.sh** : delete file the day exceeds 30 days after created  
+* **zip_log.sh** : compresses(.zip) file the day exceeds 10 days after created  
+
+
 ***
 ### Run project
 
